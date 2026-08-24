@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <MATH.H>
 
+int main(int argc, char *argv[]) {
+	
 	printf("=================EXERCICIO 2 SK=================\n");
 	
 	double valor, base;
