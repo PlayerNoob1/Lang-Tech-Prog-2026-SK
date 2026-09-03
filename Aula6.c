@@ -15,7 +15,7 @@ void exec3(){
 	tempF = tempC *(9.0/5.0) + 32.0; 
 	printf("A temperatura maxima de hoje na tela da globo %f", tempF);
 }
-void exec8(){
+int exec8(){
 		//(URI 1019) Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e informe-o
 	int segundos, horas, minutos;
 	scanf("%d", &segundos);
@@ -23,11 +23,11 @@ void exec8(){
 	minutos = (segundos-(horas*3600))/60;
 	segundos = segundos-((horas*3600)+(minutos*60));
 	printf("Tempo %d:%d:%d", horas , minutos, segundos);
-	
+	return horas;
 }
 
 int main(int argc, char *argv[]) { 
-	int resposta;
+	int resposta, retorno;
 	printf("Usuario, qual exercio quer resolver? |2|3|8|\n");
 	scanf("%d", &resposta);
 	
@@ -38,9 +38,9 @@ int main(int argc, char *argv[]) {
 	case 3:
 		exec3();
 	break;
-	
 	case 8:
-		exec8();
+		retorno = exec8();
+		printf("\t \t %d", retorno);
 	break;
 	return 0;
 	}
