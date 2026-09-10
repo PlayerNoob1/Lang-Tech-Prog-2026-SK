@@ -203,7 +203,7 @@ int main(int argc, char *argv[]) {
 	printf("|          MENU DE EXERCÍCIOS         |\n");
 	printf("=======================================\n");
 	
-	printf("===> Escolha Seu Exercício: \n");
+	printf("===> Exercicios Disponiveis: \n");
 	
 	printf("Exercicio 1 ");
 	printf("\nExercicio 2 ");
@@ -221,35 +221,35 @@ int main(int argc, char *argv[]) {
 	switch (op){
 		
 		case 1:{
-				ex1 ();
+				exe1 ();
 			break;
 		}
 		case 2:{
-				ex2 ();
+				exe2 ();
 			break;
 		}
 		case 3:{
-				ex3 ();
+				exe3 ();
 			break;
 		}
 		case 4:{
-				ex4 ();
+				exe4 ();
 			break;
 		}
 		case 5:{
-				ex5 ();
+				exe5 ();
 			break;
 		}
 		case 6:{
-				ex6 ();
+				exe6 ();
 			break;
 		}
 		case 7:{
-				ex7 ();
+				exe7 ();
 			break;
 		}
 		case 8:{
-				ex8 ();
+				exe8 ();
 			break;
 		}
 	}
