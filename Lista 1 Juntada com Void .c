@@ -104,7 +104,7 @@ void exe3 (){
 
 	fixo = 1000;
 	comissao = 0.15;
-	vendas = 200 * comissao; //ATRIBUIDO CADA VENDO COMO 200 REAIS.
+	vendas = 200 * comissao;
 
 	printf("\nInsira a quantidade de vendas: ");
 	scanf("%f", &venda);
